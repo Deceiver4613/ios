@@ -26,18 +26,19 @@ class GameViewController: UIViewController {
     // MARK: - Private Properties
     
     private lazy var padView1: SKView = {
-        let view = SKView(frame: CGRect(x:40, y: 20, width:UIScreen.main.bounds.height - 140, height: 140))
+        let view = SKView(frame: CGRect(x:40, y: UIScreen.main.bounds.height - 140, width:140, height: 140))
         view.isMultipleTouchEnabled = true
         view.backgroundColor = .clear
         return view
     }()
     
     private lazy var padView2: SKView = {
-        let view = SKView(frame: CGRect(x:660, y: 20, width:UIScreen.main.bounds.height - 140, height: 140))
+        let view = SKView(frame: CGRect(x:660, y: UIScreen.main.bounds.height - 140, width:140, height: 140))
         view.isMultipleTouchEnabled = true
         view.backgroundColor = .clear
         return view
     }()
+    
     
 //    private let droneQueue = DispatchQueue(label: "com.froleeyo.dronequeue")
  /*   
