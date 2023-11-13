@@ -164,8 +164,6 @@ extension GameViewController: JoystickSceneDelegate {
             sceneView.changeAltitude(value: scaled)
         }
     }
-    /*
-    func tapped() {
-        sceneView.shootMissile()
-    }*/
+    
+    func tapped() { }
 }
