@@ -39,7 +39,6 @@ class GameViewController: UIViewController {
         return view
     }()
     
-    
 //    private let droneQueue = DispatchQueue(label: "com.froleeyo.dronequeue")
  /*   
     private lazy var armMissilesButton: UIButton = {
@@ -165,5 +164,7 @@ extension GameViewController: JoystickSceneDelegate {
         }
     }
     
-    func tapped() { }
+    func tapped() {
+        //sceneView.shootMissile()
+    }
 }

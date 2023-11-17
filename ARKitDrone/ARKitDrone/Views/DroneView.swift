@@ -12,54 +12,37 @@ import SceneKit
 
 class DroneSceneView: ARSCNView {
     
-    private var helicopter = ApacheHelicopter()
+    private var drone = Drone()
     
     func setup(scene: SCNScene) {
-        helicopter.setup(with: scene)
+        drone.setup(with: scene)
     }
 }
 
-// MARK: - HelicopterCapable
+// MARK: - 헬기Capable
 
-extension DroneSceneView: HelicopterCapable  {
+extension DroneSceneView: droneCapable  {
     
-    /// Void function that rotates the helicopter based
-    /// from *float* value passed
-    ///
-    /// - Parameters:
-    ///     - value: The *value* parameter determines the movement rotation
-    ///              of the drone
-    ///
-    ///
+
     func rotate(value: Float) {
-        helicopter.rotate(value: value)
+        drone.rotate(value: value)
     }
     
     func moveForward(value: Float) {
-        helicopter.moveForward(value: value)
-    }
-    
-    func shootMissile() {
-        helicopter.shootMissile()
+        drone.moveForward(value: value)
     }
     
     func changeAltitude(value: Float) {
-        helicopter.changeAltitude(value: value)
+        drone.changeAltitude(value: value)
     }
     
     func moveSides(value: Float) {
-        helicopter.moveSides(value: value)
-    }
-    
-    func toggleArmMissile() {
-        helicopter.toggleArmMissile()
+        drone.moveSides(value: value)
     }
     
     func positionHUD() {
-        helicopter.positionHUD()
+        drone.positionHUD()
     }
     
-    func missilesArmed() -> Bool {
-        return helicopter.missilesAreArmed()
-    }
+   
 }
