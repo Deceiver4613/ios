@@ -28,16 +28,12 @@ class GameSceneView: ARSCNView {
 
 // MARK: - HelicopterCapable
 
-extension GameSceneView: HelicopterCapable {
+extension GameSceneView: droneCapable {
     
     func positionHUD() {
         droneSceneView.positionHUD()
     }
-    
-    func missilesArmed() -> Bool {
-        return droneSceneView.missilesArmed()
-    }
-    
+     
     func setup(scene: SCNScene) {
         droneSceneView.setup(scene: scene)
     }
@@ -50,9 +46,6 @@ extension GameSceneView: HelicopterCapable {
         droneSceneView.moveForward(value: value)
     }
     
-    func shootMissile() {
-        droneSceneView.shootMissile()
-    }
     
     func changeAltitude(value: Float) {
         droneSceneView.changeAltitude(value: -value)

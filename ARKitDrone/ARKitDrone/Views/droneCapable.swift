@@ -8,10 +8,9 @@
 
 import Foundation
 
-protocol HelicopterCapable: AnyObject {
+protocol droneCapable: AnyObject {
     func rotate(value: Float)
     func moveForward(value: Float)
-    func shootMissile()
     func changeAltitude(value: Float)
     func moveSides(value: Float)
 }
