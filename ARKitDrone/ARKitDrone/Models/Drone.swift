@@ -74,7 +74,6 @@ class Drone {
         parentModelNode.position = SCNVector3(droneNode.position.x, droneNode.position.y, -20)
         hud.position = SCNVector3(x: droneNode.position.x + 0.6, y: droneNode.position.y, z: droneNode.position.z)
         frontIR.pivot = SCNMatrix4MakeTranslation(12.0, 0, 8.0)
-        hideEmitter()
         spinBlades()
         scene.rootNode.addChildNode(tempScene)
     }

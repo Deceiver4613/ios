@@ -31,6 +31,7 @@
 		A7AE72C71F888EF500B015D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE72C61F888EF500B015D3 /* Assets.xcassets */; };
 		A7AE72CA1F888EF500B015D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE72C81F888EF500B015D3 /* LaunchScreen.storyboard */; };
 		A7AE72D41F88900600B015D3 /* DroneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72D31F88900600B015D3 /* DroneView.swift */; };
+		D67EA6852B070C1000061087 /* Drone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67EA6842B070C1000061087 /* Drone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		A7AE72C91F888EF500B015D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7AE72CB1F888EF500B015D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7AE72D31F88900600B015D3 /* DroneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneView.swift; sourceTree = "<group>"; };
+		D67EA6842B070C1000061087 /* Drone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		94CCC8F32972E36100F7D17F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D67EA6842B070C1000061087 /* Drone.swift */,
 				941706D82972A5F400CB0308 /* ApacheHelicopter.swift */,
 				94D0E37C29732A3400AD55FD /* V-22.swift */,
 				94CCC8ED2972D46400F7D17F /* Missile.swift */,
@@ -250,6 +253,7 @@
 				A7AE72C21F888EF500B015D3 /* GameViewController.swift in Sources */,
 				94CCC8F02972D97700F7D17F /* JoystickDelegate.swift in Sources */,
 				94D0E37D29732A3400AD55FD /* V-22.swift in Sources */,
+				D67EA6852B070C1000061087 /* Drone.swift in Sources */,
 				94CCC8EE2972D46400F7D17F /* Missile.swift in Sources */,
 				94D630322976077000096104 /* UIFont+Extension.swift in Sources */,
 				94CCC9102972F43200F7D17F /* HelicopterCapable.swift in Sources */,
