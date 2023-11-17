@@ -5,7 +5,7 @@
 //  Created by Christopher Webb on 1/14/23.
 //  Copyright © 2023 Christopher Webb-Orenstein. All rights reserved.
 //
-
+/*
 import Foundation
 import SceneKit
 import ARKit
@@ -175,8 +175,82 @@ class Drone {
         }
         SCNTransaction.commit()
     }
-    
+  
     
 
 
+}
+*/
+import Foundation
+import SceneKit
+import ARKit
+
+class Drone {
+    
+    // MARK: - LocalConstants
+    
+    private struct LocalConstants {
+        static let sceneName = "art.scnassets/drone_custom.scn"
+        static let audioFileName = "audio.m4a"
+        
+        static let activeEmitterRate: CGFloat = 1000
+        static let angleConversion = SCNQuaternion.angleConversion(x: 0, y: 0.002 * Float.pi, z: 0, w: 0)
+        static let negativeAngleConversion = SCNQuaternion.angleConversion(x: 0, y: -0.002 * Float.pi, z: 0, w: 0)
+        static let altitudeAngleConversion = SCNQuaternion.angleConversion(x: 0.001 * Float.pi, y: 0, z: 0, w: 0)
+        static let negativeAltitudeAngleConversion = SCNQuaternion.angleConversion(x: -0.001 * Float.pi, y: 0, z: 0, w: 0)
+    }
+    
+    private var droneNode: SCNNode!
+    
+    // MARK: - Public Methods
+    
+    init() {
+        loadScene()
+        setup()
+    }
+    
+    func setup(with scene: SCNScene) {
+        guard let droneNode = droneNode else {
+            print("드론 노드를 찾을 수 없습니다.")
+            return
+        }
+
+        // 필요한 경우 여기에 설정 코드 추가
+        scene.rootNode.addChildNode(droneNode)
+    }
+    
+    func positionHUD() {
+        // 필요한 경우 HUD 위치 조정 코드 추가
+    }
+    
+    func rotate(value: Float) {
+        // 주어진 값 사용하여 회전 코드 추가
+    }
+    
+    func moveForward(value: Float) {
+        // 주어진 값 사용하여 전진 코드 추가
+    }
+    
+    func changeAltitude(value: Float) {
+        // 주어진 값 사용하여 고도 변경 코드 추가
+    }
+    
+    func moveSides(value: Float) {
+        // 주어진 값 사용하여 좌우 이동 코드 추가
+    }
+
+    // MARK: - Private Methods
+    
+    private func loadScene() {
+        guard let tempScene = SCNScene.nodeWithModelName(LocalConstants.sceneName) else {
+            print("씬을 불러오는 데 실패했습니다.")
+            return
+        }
+
+        droneNode = tempScene.rootNode
+    }
+    
+    private func spinBlades() {
+        // 필요한 경우 회전하는 날개 애니메이션 코드 추가
+    }
 }
