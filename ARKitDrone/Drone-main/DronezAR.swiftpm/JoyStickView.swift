@@ -2,8 +2,7 @@
 //  JoyStickView.swift
 //  DroneARApp
 //
-//  Created by Ayush Singh on 18/04/23.
-//
+
 
 import SwiftUI
 
