@@ -19,8 +19,6 @@ class GameViewController: UIViewController {
         static let joystickSize = CGSize(width: 160, height: 150)
         static let joystickPoint = CGPoint(x: 0, y: 0)
         static let environmentalMap = "Models.scnassets/sharedImages/environment_blur.exr"
-        //static let buttonTitle = "Arm Missiles".uppercased()
-        //static let disarmTitle = "Disarm Missiles".uppercased()
     }
     
     // MARK: - Private Properties
@@ -128,12 +126,10 @@ class GameViewController: UIViewController {
     }
     
     // MARK: - Actions
-    /*
+    
     @objc func didTapUIButton() {
-        sceneView.toggleArmMissiles()
-        let title = sceneView.missilesArmed() ? LocalConstants.disarmTitle : LocalConstants.buttonTitle
-        armMissilesButton.setTitle(title, for: .normal)
-    }*/
+        
+    }
 }
 
 extension GameViewController: ARSCNViewDelegate {
@@ -165,6 +161,6 @@ extension GameViewController: JoystickSceneDelegate {
     }
     
     func tapped() {
-        //sceneView.shootMissile()
+     
     }
 }
