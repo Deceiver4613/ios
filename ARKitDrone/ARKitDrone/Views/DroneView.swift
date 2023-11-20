@@ -10,39 +10,13 @@ import Foundation
 import ARKit
 import SceneKit
 
-class DroneSceneView: ARSCNView {
-    
-    private var drone = Drone()
-    
-    func setup(scene: SCNScene) {
-        drone.setup(with: scene)
+class Drone: SCNNode {
+    func carregarModelo() {
+        guard let objetoVirtual = SCNScene(named: "art.scnassets/Drone.scn") else { return }
+        let no = SCNNode()
+        for noFilho in objetoVirtual.rootNode.childNodes {
+            no.addChildNode(noFilho)
+        }
+        addChildNode(no)
     }
-}
-
-// MARK: - 헬기Capable
-
-extension DroneSceneView: droneCapable  {
-    
-
-    func rotate(value: Float) {
-        drone.rotate(value: value)
-    }
-    
-    func moveForward(value: Float) {
-        drone.moveForward(value: value)
-    }
-    
-    func changeAltitude(value: Float) {
-        drone.changeAltitude(value: value)
-    }
-    
-    func moveSides(value: Float) {
-        drone.moveSides(value: value)
-    }
-    
-    func positionHUD() {
-        drone.positionHUD()
-    }
-    
-   
 }
