@@ -1,10 +1,3 @@
-//
-//  UserManual.swift
-//  Introduction
-//
-//  Created by Ayush Singh on 19/04/23.
-//
-
 import SwiftUI
 
 struct UserManual: View {
