@@ -5,18 +5,22 @@
 import SwiftUI
 
 struct HomeView: View {
-    static var previews: some View {
-        UserManual()
+    var body: some View {
+        ZStack {
+            Color.black
+                 .ignoresSafeArea()
+            UserManual()
+        }
     }
 }
+
 /*
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        UserManual()
+            UserManual()
     }
 }
 */
-
 
 
 struct Demo: View {
