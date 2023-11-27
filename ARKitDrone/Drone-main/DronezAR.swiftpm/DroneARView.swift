@@ -26,18 +26,14 @@ struct DroneARView : View {
                 HStack {
                     VStack {
                         Spacer()
-                        //Power Button
-                        ControllerButton(image: "power", action: {
-                            powerCheck()
-                        }, bgcolor: isPowerOn ? .green : .red)
+                        //Power Button rip
+                       
                     }
                     Spacer()
                     VStack {
                         Spacer()
-                        //Drone to position
-                        ControllerButton(image: "pause", action: {
-                            droneToPosition()
-                        })
+                        //Drone to position rip
+      
                     }                 
                 }.padding()
                 //JoySticks
@@ -57,8 +53,23 @@ struct DroneARView : View {
                     
                     Text(getDirection())
 
+                    //
+                    //Power Button
+                        ControllerButton(image: "power", action: {
+                            powerCheck()
+                        }, bgcolor: isPowerOn ? .green : .red)
+                    //
+
                     Spacer()
                     
+                    //
+                    //Drone to position
+                        ControllerButton(image: "pause", action: {
+                            droneToPosition()
+                        })
+                    //
+
+
                     //Joystick 2
                     Text(getAngle()).foregroundColor(.white)
                     
