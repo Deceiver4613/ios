@@ -38,14 +38,7 @@ struct DroneARView : View {
                         ControllerButton(image: "pause", action: {
                             droneToPosition()
                         })
-                        //Perform Action
-                        ControllerButton(image: "rotate") {
-                            performActionPitch()
-                        }
-                    }
-                    
-
-                    
+                    }                 
                 }.padding()
                 //JoySticks
                 HStack {
