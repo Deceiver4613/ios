@@ -8,10 +8,10 @@ struct HomeView: View {
     var body: some View {
         NavigationView{
             ZStack {
-            Color.black
-                 .ignoresSafeArea()
-            UserManual()
-        }
+                Color.black
+                    .ignoresSafeArea()
+                UserManual()
+            }
         }
     }
 }
