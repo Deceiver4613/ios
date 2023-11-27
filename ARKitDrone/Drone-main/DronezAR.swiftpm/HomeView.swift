@@ -6,23 +6,16 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
+        NavigationView{
+            ZStack {
             Color.black
                  .ignoresSafeArea()
             UserManual()
         }
+        }
     }
 }
-
 /*
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-            UserManual()
-    }
-}
-*/
-
-
 struct Demo: View {
 
     let fileUrl = Bundle.main.url(forResource: "demo1", withExtension: "mp4")!
@@ -36,3 +29,4 @@ struct Demo: View {
         }
     }
 }
+*/

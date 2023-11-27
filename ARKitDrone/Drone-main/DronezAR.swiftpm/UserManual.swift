@@ -19,29 +19,11 @@ struct UserManual: View {
                 Image("drone")
                     .resizable()
                     .frame(width: 400, height: 250)
-                NavigationLink(destination: HowToPlayView()) {
-                    
-                    
-                    HStack {
-                        Text("How to use")
-                            .foregroundColor(.white)
-                            .fontWeight(.bold)
-                    }
-                    .padding()
-                    .frame(width: 300)
-                    .cornerRadius(30)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 30)
-                            .stroke(Color.white, lineWidth: 2)
-                    )
-                    
-                    
-                }
-                
+                           
                 NavigationLink(destination: DroneARView()) {
                     
                     HStack {
-                        Text("Go Fly")
+                        Text("Play")
                             .foregroundColor(.black)
                             .fontWeight(.bold)
                     }
@@ -52,16 +34,7 @@ struct UserManual: View {
                     
                     
                     
-                }
-                NavigationLink(destination: DemoVideo()) {
-                    HStack {
-                        Text("Watch Demo")
-                            .foregroundColor(.white)
-                            .fontWeight(.bold)
-                            .underline()
-                    }
-                }
-                
+                }           
             }
             
         }
