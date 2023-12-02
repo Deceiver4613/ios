@@ -18,7 +18,7 @@ struct UserManual: View {
             
             VStack(spacing: 30) {
                 HStack {
-                    Image("DronezAR")
+                    Image("DroneAR")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 300)
