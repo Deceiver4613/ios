@@ -3,5 +3,10 @@
     "format" : "model",
     "displayName" : "toy_biplane_idle.usdz",
     "libraryIdentifier" : "5d47a563c623db9d0510bef04d3ffe1a"
+  },
+  {
+    "libraryIdentifier" : "68968402f87e0b8cd63975df5ba71059",
+    "format" : "model",
+    "displayName" : "Flying_Drone_animation.usdz"
   }
 ]

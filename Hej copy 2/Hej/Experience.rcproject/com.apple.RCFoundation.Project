@@ -43,7 +43,7 @@
                                           "moveEase" : "none",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ]
                                         },
                                         "name" : {
@@ -130,7 +130,7 @@
                                           "moveEase" : "none",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ]
                                         },
                                         "name" : {
@@ -217,7 +217,7 @@
                                           "moveEase" : "none",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ]
                                         },
                                         "name" : {
@@ -302,7 +302,7 @@
                                           "reversed" : false,
                                           "reverses" : false,
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ]
                                         },
                                         "name" : {
@@ -388,7 +388,7 @@
                                           "moveEase" : "none",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ]
                                         },
                                         "name" : {
@@ -481,7 +481,7 @@
                                           ],
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+
                                           ]
                                         },
                                         "name" : {
@@ -574,7 +574,7 @@
                                           ],
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ]
                                         },
                                         "name" : {
@@ -704,7 +704,7 @@
                                           "duration" : 1,
                                           "iterations" : 1,
                                           "target" : [
-
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ]
                                         },
                                         "name" : {
@@ -779,7 +779,7 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ],
                                           "userIdentifier" : "ActionCompleteDroneUp"
                                         },
@@ -855,7 +855,7 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ],
                                           "userIdentifier" : "ActionComplete"
                                         },
@@ -940,7 +940,7 @@
                                           "reversed" : false,
                                           "reverses" : false,
                                           "target" : [
-                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                            "0794181F-946C-46DA-8ED6-D394A02EF1DB"
                                           ]
                                         },
                                         "name" : {
@@ -983,6 +983,90 @@
                                 "name" : "start"
                               },
                               "identifier" : "46441742-F0D7-49F4-9A6B-7A42A2A749C3",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 0,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "E7366A0B-895A-451A-AE1C-D12F9EE92DD2"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "030CFD75-DAAF-4D41-9B5E-F24BD21E6D77",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "01807644-195B-423D-9CA6-4B6A7CEB2671",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.92941177,
+                        0.627451,
+                        0.34117648,
+                        1
+                      ],
+                      "identifier" : "CB3C9EEE-D25C-41AD-B6A0-6C3E5D4A5269",
+                      "isEnabled" : true,
+                      "isLooping" : true,
+                      "isModal" : false,
+                      "name" : "Behavior 1",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "1ED9DF81-7330-4A6B-BD11-E31ADD89DD44",
                               "isEnabled" : true
                             }
                           ],
@@ -1093,7 +1177,7 @@
                           "entityName",
                           {
                             "typeName" : "String",
-                            "value" : "DronePro"
+                            "value" : "DronePro1"
                           }
                         ],
                         [
@@ -1159,7 +1243,134 @@
                       ]
                     }
                   },
-                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "F1E215A2-8DC2-4F86-8337-81B943A4D505" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:68968402f87e0b8cd63975df5ba71059\/Flying_Drone_animation.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "27BD9C4F-EB93-4E76-97E6-9EE079177D87"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.01,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.01,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.01,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "0794181F-946C-46DA-8ED6-D394A02EF1DB"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "DronePro"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.15179451,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.15179451,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.15179451,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  }
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -1176,21 +1387,21 @@
               "title" : "DronePro",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.8138514,
-                  -1.4901161e-08,
-                  0.581073,
+                  0.9468456,
+                  2.9802326e-08,
+                  -0.32168844,
                   0,
-                  0.3295993,
-                  0.8235627,
-                  -0.46163696,
+                  -0.19007201,
+                  0.80677605,
+                  -0.55945057,
                   0,
-                  -0.4785503,
-                  0.56722516,
-                  0.6702575,
+                  0.25953048,
+                  0.59085745,
+                  0.76389235,
                   0,
-                  -0.07775098,
-                  0.27916843,
-                  0.49011445,
+                  -0.07719201,
+                  0.57940286,
+                  1.2524577,
                   1
                 ],
                 "sceneTransform" : [
