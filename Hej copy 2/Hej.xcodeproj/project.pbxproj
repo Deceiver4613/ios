@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D675B35D2B1ADBD000B5A6F9 /* ControllerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675B35C2B1ADBD000B5A6F9 /* ControllerButton.swift */; };
 		D675B35F2B1ADC0B00B5A6F9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675B35E2B1ADC0B00B5A6F9 /* HomeView.swift */; };
 		D675B3612B1ADC2200B5A6F9 /* HowToPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675B3602B1ADC2200B5A6F9 /* HowToPlay.swift */; };
 		D675B3632B1ADC3900B5A6F9 /* JoyStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675B3622B1ADC3900B5A6F9 /* JoyStickView.swift */; };
 		D675B3652B1ADC4A00B5A6F9 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675B3642B1ADC4A00B5A6F9 /* MyApp.swift */; };
 		D675B3672B1ADC9D00B5A6F9 /* UserManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675B3662B1ADC9D00B5A6F9 /* UserManual.swift */; };
+		D67C80902B1AFFED00F27135 /* ControllerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67C808F2B1AFFED00F27135 /* ControllerButton.swift */; };
 		D6BA254F2B145E1400B69BEB /* DroneARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA254E2B145E1400B69BEB /* DroneARView.swift */; };
 		D6BA25512B145E1400B69BEB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D6BA25502B145E1400B69BEB /* Experience.rcproject */; };
 		D6BA25532B145E1600B69BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6BA25522B145E1600B69BEB /* Assets.xcassets */; };
@@ -20,12 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D675B35C2B1ADBD000B5A6F9 /* ControllerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerButton.swift; sourceTree = "<group>"; };
 		D675B35E2B1ADC0B00B5A6F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D675B3602B1ADC2200B5A6F9 /* HowToPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlay.swift; sourceTree = "<group>"; };
 		D675B3622B1ADC3900B5A6F9 /* JoyStickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStickView.swift; sourceTree = "<group>"; };
 		D675B3642B1ADC4A00B5A6F9 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		D675B3662B1ADC9D00B5A6F9 /* UserManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManual.swift; sourceTree = "<group>"; };
+		D67C808F2B1AFFED00F27135 /* ControllerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerButton.swift; sourceTree = "<group>"; };
 		D6BA25492B145E1400B69BEB /* Hej.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hej.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6BA254E2B145E1400B69BEB /* DroneARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneARView.swift; sourceTree = "<group>"; };
 		D6BA25502B145E1400B69BEB /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
@@ -63,8 +63,8 @@
 		D6BA254B2B145E1400B69BEB /* Hej */ = {
 			isa = PBXGroup;
 			children = (
+				D67C808F2B1AFFED00F27135 /* ControllerButton.swift */,
 				D6BA254E2B145E1400B69BEB /* DroneARView.swift */,
-				D675B35C2B1ADBD000B5A6F9 /* ControllerButton.swift */,
 				D675B35E2B1ADC0B00B5A6F9 /* HomeView.swift */,
 				D675B3602B1ADC2200B5A6F9 /* HowToPlay.swift */,
 				D675B3622B1ADC3900B5A6F9 /* JoyStickView.swift */,
@@ -156,10 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6BA254F2B145E1400B69BEB /* DroneARView.swift in Sources */,
+				D67C80902B1AFFED00F27135 /* ControllerButton.swift in Sources */,
 				D675B3632B1ADC3900B5A6F9 /* JoyStickView.swift in Sources */,
 				D675B3612B1ADC2200B5A6F9 /* HowToPlay.swift in Sources */,
 				D675B3672B1ADC9D00B5A6F9 /* UserManual.swift in Sources */,
-				D675B35D2B1ADBD000B5A6F9 /* ControllerButton.swift in Sources */,
 				D675B3652B1ADC4A00B5A6F9 /* MyApp.swift in Sources */,
 				D675B35F2B1ADC0B00B5A6F9 /* HomeView.swift in Sources */,
 				D6BA25512B145E1400B69BEB /* Experience.rcproject in Sources */,

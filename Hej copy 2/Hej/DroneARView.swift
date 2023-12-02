@@ -17,6 +17,7 @@ struct DroneARView : View {
     
     @State var isPowerOn: Bool = false
     
+    
     var body: some View {
         ZStack {
             ARViewContainer(arView: $arView).edgesIgnoringSafeArea(.all)
@@ -172,6 +173,7 @@ struct DroneARView : View {
                 arView.installGestures(.all, for: entity as! HasCollision)
                 entity.generateCollisionShapes(recursive: true)
                 arView.scene.addAnchor(droneScene)
+                arView.environment.sceneUnderstanding.options.insert(.occlusion)
                 arView.addCoaching()
             }
         } catch {
@@ -299,10 +301,8 @@ struct DroneARView : View {
 struct ARViewContainer: UIViewRepresentable {
     @Binding var arView: ARView
     
-    
     func makeUIView(context: Context) -> ARView {
         return arView
-        
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {}
