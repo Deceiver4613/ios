@@ -12,6 +12,6 @@ struct HomeView: View {
                     .ignoresSafeArea()
                 UserManual()
             }
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
