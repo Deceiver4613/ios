@@ -42,7 +42,7 @@ struct OnboardingStepView: View {
             
             HStack {
                 VStack {
-                    VStack(spacing: 20) {
+                    VStack(spacing: 18) {
                         Text(title)
                             .font(.title)
                             .fontWeight(.bold)
