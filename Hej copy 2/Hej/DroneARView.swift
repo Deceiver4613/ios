@@ -27,19 +27,13 @@ struct DroneARView : View {
                 HStack {
                     VStack {
                         Spacer()
-                        //Power Button rip
-                       
                     }
                     Spacer()
                     VStack {
                         Spacer()
-                        //Drone to position rip
-      
                     }
                 }.padding()
-                //JoySticks
                 HStack {
-                    //Joystick 1
                     JoystickView()
                         .onTranslation({ secondTranslation in
                             guard let secondTranslation = secondTranslation else {
@@ -53,22 +47,15 @@ struct DroneARView : View {
                         .frame(maxWidth: 200, maxHeight: 200)
                     
                     Text(getDirection())
-
-                    //
-                    //Power Button
                         ControllerButton(image: "power", action: {
                             powerCheck()
                         }, bgcolor: isPowerOn ? .green : .red)
-                    //
-
                     Spacer()
                     
-                    //
-                    //Drone to position
                         ControllerButton(image: "pause", action: {
                             droneToPosition()
+                        //원위치로
                         })
-                    //
 
 
                     //Joystick 2
@@ -215,7 +202,7 @@ struct DroneARView : View {
         var transform = drone.transform
         transform.translation += SIMD3(x: 0, y: -0.3, z: 0)
         if floor.y >= transform.translation.y {
-            // Do something if the drone has reached the floor
+            droneToPosition()
         }
         drone.move(to: transform, relativeTo: drone.parent, duration: animationDuration)
         
